@@ -37,7 +37,7 @@ Before running the application, ensure you have the following installed:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/PrinceRaj-0/SCA-Scanner-With-Gemini-Assistant.git
+    git clone https://github.com/seclynks/SCA-Scanner-With-Gemini-Assistant.git
     cd SCA-Scanner-With-Gemini-Assistant
     ```
 
