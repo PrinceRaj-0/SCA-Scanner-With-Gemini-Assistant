@@ -2,6 +2,7 @@
 
 A powerful security vulnerability scanner that combines **Trivy** for repository scanning with **Google Gemini AI Assistant** for intelligent, real-time vulnerability analysis and advice.
 
+<img width="2724" height="1576" alt="image" src="https://github.com/user-attachments/assets/c8bece4f-1e62-4eed-a2c7-6a1247d9e853" />
 
 
 ## Features
