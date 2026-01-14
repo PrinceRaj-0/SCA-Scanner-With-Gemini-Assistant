@@ -2,13 +2,18 @@
 
 A powerful security vulnerability scanner that combines **Trivy** for repository scanning with **Google Gemini AI Assistant** for intelligent, real-time vulnerability analysis and advice.
 
+<img width="2724" height="1576" alt="image" src="https://github.com/user-attachments/assets/09d6411f-5645-4a03-8a93-4eee1e575500" />
+
+
+<img width="2724" height="1576" alt="image" src="https://github.com/user-attachments/assets/c8bece4f-1e62-4eed-a2c7-6a1247d9e853" />
 
 
 ## Features
 
-*   **Repo Scanning**: Scans public GitHub repositories for vulnerabilities using Trivy.
+*   **Repo Scanning**: Scans public and private GitHub repositories for vulnerabilities using Trivy.
 *   **AI Security Assistant**: Integrated chat interface powered by **Gemini Pro 1.5/2.0**.
 *   **Real-time Streaming**: Chat responses stream in real-time for better UX.
+*   **Export Result**: Ability to export scan result in CSV
 *   **Cyberpunk UI**: Modern, dark-mode/glassmorphism aesthetic.
 
 ## Tech Stack
@@ -32,8 +37,8 @@ Before running the application, ensure you have the following installed:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/trivy-gemini-scanner.git
-    cd trivy-gemini-scanner
+    git clone https://github.com/PrinceRaj-0/SCA-Scanner-With-Gemini-Assistant.git
+    cd SCA-Scanner-With-Gemini-Assistant
     ```
 
 2.  **Install Frontend Dependencies**:
@@ -94,6 +99,7 @@ npm run dev
 1.  Open `http://localhost:5173/` in your browser.
 2.  Enter a GitHub repository URL (e.g., `https://github.com/user/repo`) in the search bar.
 3.  Click **SCAN REPO**.
+    *   *For Private Repos:* Click the **Key Icon** next to the search bar and enter your GitHub PAT (Personal Access Token).
 4.  View vulnerabilities in the table.
 5.  Use the **Security AI** chat on the right to ask questions like:
     *   "How do I fix the SQL injection vulnerability?"
