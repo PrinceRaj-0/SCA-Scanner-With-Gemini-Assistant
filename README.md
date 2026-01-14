@@ -1,9 +1,8 @@
-# CyberGuard: Trivy Scanner with Gemini Pro AI
+# SCA Scanner with Gemini AI Assistant
 
-A powerful security vulnerability scanner that combines **Trivy** for repository scanning with **Google Gemini Pro AI** for intelligent, real-time vulnerability analysis and advice.
+A powerful security vulnerability scanner that combines **Trivy** for repository scanning with **Google Gemini AI Assistant** for intelligent, real-time vulnerability analysis and advice.
 
-![Application Screenshot](https://via.placeholder.com/800x450?text=Application+Screenshot) 
-*(You can replace this with an actual screenshot after pushing)*
+
 
 ## Features
 
